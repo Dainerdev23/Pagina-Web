@@ -1,0 +1,124 @@
+<!DOCTYPE html>grid
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=favorite" />
+    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,1,0&icon_names=favorite" /> -->
+
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#acerca">Acerca de mí</a></li>
+                <li><a href="#trabajos">Proyectos</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio">
+        <h1>Bienvenido a mi portafolio</h1>
+        <p>Explora mis proyectos y servicios en diseño y desarrollo web.</p>
+        <img src="./img/portada.webp" alt="Imagen de portada" class="banner">
+    </section>
+
+    <section id="acerca">
+        <h2>Acerca de mí</h2>
+        <img src="./img/perfil.jfif" alt="Foto de perfil" class="perfil">
+        <p>Soy un apasionado del diseño y desarrollo web. Me especializo en crear sitios modernos y funcionales.</p>
+        <p>Mi objetivo es ayudar a emprendedores y empresas a destacar en el mundo digital.</p>
+    </section>
+
+    <section id="trabajos">
+        <h2>Proyectos</h2>
+        <div class="trabajos">
+            <div class="trabajo">
+                <img src="./img/proyecto1.png" alt="Proyecto 1">
+                <h3>Sitio Web Corporativo</h3>
+                <p>Diseñé un sitio web profesional para una empresa de tecnología.</p>
+                <a href="#">Ver más</a>
+            </div>
+            <div class="trabajo">
+                <img src="./img/proyecto2.png" alt="Proyecto 2">
+                <h3>Tienda Online</h3>
+                <p>Desarrollé una tienda en línea con carrito de compras y pasarela de pago.</p>
+                <a href="#">Ver más</a>
+            </div>
+            <div class="trabajo">
+                <img src="./img/proyecto 3.png" alt="Proyecto 3">
+                <h3>Blog de Noticias</h3>
+                <p>Creé un blog con diseño atractivo y optimización SEO.</p>
+                <a href="#">Ver más</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="servicios">
+        <h2>Servicios</h2>
+        <p>Ofrezco soluciones digitales para mejorar tu presencia online.</p>
+        <ul>
+            <li>Diseño y desarrollo web</li>
+            <li>Optimización SEO</li>
+            <li>Gestión de redes sociales</li>
+        </ul>
+    </section>
+
+    <section class="seccion-3">
+        <div class="formulario">
+            <h2>Contacto</h2>
+            <form>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre">
+
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email">
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje"></textarea>
+
+                <label for="pais">País:</label>
+                <select id="pais" name="pais">
+                    <option value="argentina">Argentina</option>
+                    <option value="mexico">México</option>
+                    <option value="chile">Chile</option>
+                    <option value="peru">Perú</option>
+                    <option value="Colombia">Colombia</option>
+                </select>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>Encuéntrame en mis redes sociales:</p>
+        <div class="redes-sociales">
+            <a href="https://www.facebook.com/share/14NmEcY2X8/" target="_blank">
+                <img src="img/instagram.png" alt="Instagram">
+            </a>
+            <a href="https://www.tiktok.com/@dainer.selis.pere?_t=ZS-8uDxqsYWTua&_r=1" target="_blank">
+                <img src="img/tiktok.png" alt="TikTok">
+            </a>
+            <a href="" target="_blank">
+                <img src="img/whatsapp.png" alt="WhatsApp">
+            </a>
+        </div>
+    </section>
+
+    <a href=""><span class="material-symbols-outlined iconocorazon">
+        favorite
+        </span>
+
+    <script src="script.js"></script>
+    </a>
+
+</body>
+</html>
